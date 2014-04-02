@@ -1,5 +1,7 @@
 \documentclass[11pt,letterpaper]{article}
 \usepackage{changepage}
+\usepackage[usenames,dvipsnames]{color}
+
 \usepackage[T1]{fontenc}
 \usepackage[margin=1.25cm]{geometry}
 \usepackage[pdftitle={Logan Chadderdon - Resume},%
@@ -21,7 +23,7 @@ pdfkeywords={programming software development application web mobile}]{hyperref}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf \#}}
 
 \setcounter{secnumdepth}{-1}
-\newcommand{\Hsep}{\vspace{4mm} \hrule \vspace{-1mm}}
+\newcommand{\Hsep}{\color[rgb]{0.6, 0.6, 0.6} \vspace{4mm} \hrule \vspace{-2mm} \color{black}}
 
 
 \begin{document}
@@ -48,32 +50,31 @@ Tucson, AZ 85715
 
 
 \vspace{-1mm}
+\color[rgb]{0.6, 0.6, 0.6}
 \hrule
-
-% \section{\scshape Career Objective}
-% \vspace{-2mm}
-% I am seeking a career in computer programming.
-% Many avenues of software development interest me, including video game design and applications for the web, mobile, and desktop platforms.
-% \Hsep
+\color{black}
+\vspace{-1mm}
 
 \section{\scshape Education}
 \vspace{-2mm}
 {\bfseries University of Arizona} - Tucson, AZ \hfill B.S. Computer Science
 
-GPA 3.62 \hfill May 2014
+GPA 3.66 \hfill May 2014
 
+\vspace{-1mm}
 \Hsep
 
 \section{\scshape Coursework}
 \vspace{-3mm}
-Completing large and complex projects, such as a blog or implementing dynamic memory management,
-has helped me learn how to quickly write efficient and maintainable code.
+Completing large and complex projects, such as a fitness tracking website or 
+implementing dynamic memory management, has helped me learn how to quickly write 
+efficient and maintainable code.
 \vspace{2mm}
 \begin{itemize}
  \item Languages: {\bfseries Python}, Java, C, SQL, Haskell, Prolog, MatLab, VBA
  \item Web: HTML, CSS, JavaScript, PHP, JSP, Oracle, MySQL
- \item Concepts: Object Oriented Design, Databases, Vision, Data Structures,
- Algorithms, Operating Systems  % Add graphics
+ \item Concepts: Object Oriented Design, Databases, Graphics, Vision, Data Structures,
+ Algorithms, Operating Systems
 \end{itemize}
 \vspace{-3mm}
 \section{\scshape Self-taught Skills}
@@ -82,10 +83,9 @@ I quickly become proficient in new programming languages and technologies throug
 and I enjoy challenging myself to learn new skills.
 \vspace{2mm}
 \begin{itemize}
- \item Languages: {\bfseries Ruby}, \CPP, \CS, \textls{\LaTeX}
- \item Web: Zurb Foundation, Rails, Haml, SASS, PostgreSQL
- \item Experienced Vim user, Ubuntu/Linux, Git/GitHub
- \item Visual Studio, Adobe CS6, Unity3D, Autodesk ECS
+ \item Languages: Ruby, \CPP, \CS, \textls{\LaTeX}
+ \item Web: Django, Zurb Foundation, Rails, Haml, SASS, PostgreSQL
+ \item Tools: Git/GitHub, Vim, Ubuntu/Linux, Visual Studio, Adobe CS6, Unity3D, Autodesk ECS
 \end{itemize}
 
 \vspace{-3mm}
@@ -98,7 +98,7 @@ and I enjoy challenging myself to learn new skills.
  manage and review each other's code, as well as keep track of open issues and feature requests. It produces runnable
  scripts that students and section leaders can use to test and grade programs. I focus on the
  area that does the testing and grading, in addition to the Qt GUI frontend. Our codebase is
- completely unit tested.
+ comprehensively unit tested.
 %  \item Created a note-taking application that allows users to create accounts,
 %  subscribe to boards, and add notes to those boards. In a short period of time my partner and I learned how to
 %  use JSP and JDBC to connect to our Oracle database. I designed the front-end using Foundation and various JavaScript plugins.
@@ -118,9 +118,12 @@ and I enjoy challenging myself to learn new skills.
 % \vspace{2mm}
 \vspace{-2mm}
 \subsection{Section Leader, Teaching Assistant - {\small University of Arizona}}
-% \vspace{-2mm}
+\vspace{-1mm}
 \begin{adjustwidth}{2em}{0pt}
-% {\large \emph{Courses}}
+
+Intermediate Python {\small (Head Section Leader)} \hfill January - May 2014
+
+Beginning Java \hfill January - May 2014
 
 Beginning Python {\small (Head Section Leader)} \hfill January - December 2013
 
@@ -137,9 +140,9 @@ SISTA Summer Game Design Workshop \hfill June 2013
 
 \hspace{2em}Respond to student questions via email and office hours
 
-\hspace{2em}Hold open lab hours for any Computer Science student
+\hspace{2em}Hold open lab hours for any Computer Science or ISTA student
 
-\hspace{2em}Create/grade assignments and exams, critique lecture material, assist the professor
+\hspace{2em}Create/grade assignments and exams, critique lecture material, assist professors
 \end{adjustwidth}
 
 \end{minipage}
